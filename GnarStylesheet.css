@@ -1,14 +1,39 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @Gnarcotic1
+ Watch 0
+  Star 0
+  Fork 0 Gnarcotic1/Gnarcotic1.github.io
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Pulse  Graphs  Settings
+Tree: 818eb58136 Find file Copy pathGnarcotic1.github.io/GnarStylesheet.css
+818eb58  17 minutes ago
+@Gnarcotic1 Gnarcotic1 .
+1 contributor
+RawBlameHistory     
+76 lines (63 sloc)  1.26 KB
+*{
+	margin:0;padding:0;
+	  box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+}
 body{
 background-image:url(bodybg.jpg);
 background-repeat: no-repeat;
 background-color:black;
-background-position:center;
+background-position:center top;
 }
 
 .Framework{
 	background-image:url(GnarMainBg.jpg);
 	background-color:#dedede;
 	background-repeat:no-repeat;
+	background-position:absolute;
+	position:top;
 	text-align:center;
 	border:7px solid #eac573;
 	width:972px;
@@ -18,11 +43,11 @@ background-position:center;
 }
 
 #gnar{
-	padding-top:580px;
+	padding-top:585px;
 	font-size:78px;
 	color:#eac573;
-	line-height:0%;
 	text-transform: uppercase;
+	line-height:0%;
 }
 
 #ml{
@@ -30,9 +55,41 @@ background-position:center;
 	color:#eac573;
 	line-height:15%;
 	text-transform: uppercase;
+    padding-top:5px;
+	}
+
+#lore{
+	color:white;
+	font-size:17px;
+	padding-top:42px;
+	margin-left:250px;
+	margin-right:250px;
 }
 
-#Introduction{
-	padding-top:80px;
-	font-size:16px;
+.abilities{
+	border:3px solid grey;
+	width:60%;
+    margin: 0 auto;
+	margin-top:110px;
+	padding:20px;
+	text-align:left;
+	background-color:white;
 }
+
+h3{
+	font-size:1.3em;
+	padding-top:20px;
+	padding-left:90px;
+	font-family: "Adobe Garamond Pro", Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+}
+
+.tooltip{
+padding-left:90px;
+font-family: "Adobe Garamond Pro", Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+}
+
+
+
+
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help

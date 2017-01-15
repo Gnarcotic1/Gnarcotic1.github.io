@@ -66,19 +66,26 @@ background-position:center top;
 	margin-right:250px;
 }
 
+#ab{
+	text-align:left;
+	padding-left:160px;
+	padding-top:100px;
+	}
+	
 .abilities{
 	border:3px solid grey;
-	width:60%;
+	width:70%;
     margin: 0 auto;
-	margin-top:110px;
+	margin-top:0px;
 	padding:20px;
 	text-align:left;
 	background-color:white;
 }
 
 h3{
-	font-size:1.3em;
-	padding-top:20px;
+	font-size:30px;
+	line-height:10%;
+	padding-top:10px;
 	padding-left:90px;
 	font-family: "Adobe Garamond Pro", Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
